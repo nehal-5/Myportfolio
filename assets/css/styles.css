@@ -560,8 +560,8 @@ img {
   }
 
   .nav__list {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
   }
 
   .nav__item {
@@ -574,7 +574,7 @@ img {
 
   .home {
     flex-direction: column-reverse;
-    text-align: center;
+    text-align: left;
   }
 
   .home__data {
@@ -582,9 +582,9 @@ img {
   }
 
   .home__img img {
-    width: 80%;
+    width: 50%;
     height: auto;
-    margin: 0 auto;
+    margin: 0 40%;
   }
 
   .skills__container, .work__container {
